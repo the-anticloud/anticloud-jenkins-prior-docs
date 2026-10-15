@@ -1,0 +1,305 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:743e56cf-aafd-557f-8308-853a7017c3f4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:20:12Z",
+    "component": {
+      "type": "application",
+      "name": "JENKINS_PRIOR_DOCS",
+      "version": "e2ba107d1330",
+      "bom-ref": "pkg:generic/anticloud/JENKINS_PRIOR_DOCS@e2ba107d1330",
+      "purl": "pkg:generic/anticloud/JENKINS_PRIOR_DOCS@e2ba107d1330",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "e2ba107d13304978b338eb19f31fad5a53a858cc"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/jenkinsci/jenkins"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "handlebars",
+      "version": "4.7.9",
+      "purl": "pkg:npm/handlebars@4.7.9",
+      "bom-ref": "npm/handlebars@4.7.9"
+    },
+    {
+      "type": "library",
+      "name": "hotkeys-js",
+      "version": "3.12.2",
+      "purl": "pkg:npm/hotkeys-js@3.12.2",
+      "bom-ref": "npm/hotkeys-js@3.12.2"
+    },
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": "4.0.0",
+      "purl": "pkg:npm/jquery@4.0.0",
+      "bom-ref": "npm/jquery@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.18.1",
+      "purl": "pkg:npm/lodash@4.18.1",
+      "bom-ref": "npm/lodash@4.18.1"
+    },
+    {
+      "type": "library",
+      "name": "sortablejs",
+      "version": "1.15.7",
+      "purl": "pkg:npm/sortablejs@1.15.7",
+      "bom-ref": "npm/sortablejs@1.15.7"
+    },
+    {
+      "type": "library",
+      "name": "tippy.js",
+      "version": "6.3.7",
+      "purl": "pkg:npm/tippy.js@6.3.7",
+      "bom-ref": "npm/tippy.js@6.3.7"
+    },
+    {
+      "type": "library",
+      "name": "window-handle",
+      "version": "1.0.1",
+      "purl": "pkg:npm/window-handle@1.0.1",
+      "bom-ref": "npm/window-handle@1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@babel/cli",
+      "version": "8.0.6",
+      "purl": "pkg:npm/@babel/cli@8.0.6",
+      "bom-ref": "npm/@babel/cli@8.0.6"
+    },
+    {
+      "type": "library",
+      "name": "@babel/core",
+      "version": "8.0.6",
+      "purl": "pkg:npm/@babel/core@8.0.6",
+      "bom-ref": "npm/@babel/core@8.0.6"
+    },
+    {
+      "type": "library",
+      "name": "@babel/preset-env",
+      "version": "8.0.6",
+      "purl": "pkg:npm/@babel/preset-env@8.0.6",
+      "bom-ref": "npm/@babel/preset-env@8.0.6"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "10.0.1",
+      "purl": "pkg:npm/@eslint/js@10.0.1",
+      "bom-ref": "npm/@eslint/js@10.0.1"
+    },
+    {
+      "type": "library",
+      "name": "babel-loader",
+      "version": "10.1.1",
+      "purl": "pkg:npm/babel-loader@10.1.1",
+      "bom-ref": "npm/babel-loader@10.1.1"
+    },
+    {
+      "type": "library",
+      "name": "clean-webpack-plugin",
+      "version": "4.0.0",
+      "purl": "pkg:npm/clean-webpack-plugin@4.0.0",
+      "bom-ref": "npm/clean-webpack-plugin@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "css-loader",
+      "version": "7.1.5",
+      "purl": "pkg:npm/css-loader@7.1.5",
+      "bom-ref": "npm/css-loader@7.1.5"
+    },
+    {
+      "type": "library",
+      "name": "css-minimizer-webpack-plugin",
+      "version": "8.0.0",
+      "purl": "pkg:npm/css-minimizer-webpack-plugin@8.0.0",
+      "bom-ref": "npm/css-minimizer-webpack-plugin@8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "10.11.0",
+      "purl": "pkg:npm/eslint@10.11.0",
+      "bom-ref": "npm/eslint@10.11.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-prettier",
+      "version": "10.1.8",
+      "purl": "pkg:npm/eslint-config-prettier@10.1.8",
+      "bom-ref": "npm/eslint-config-prettier@10.1.8"
+    },
+    {
+      "type": "library",
+      "name": "eslint-formatter-checkstyle",
+      "version": "9.0.1",
+      "purl": "pkg:npm/eslint-formatter-checkstyle@9.0.1",
+      "bom-ref": "npm/eslint-formatter-checkstyle@9.0.1"
+    },
+    {
+      "type": "library",
+      "name": "globals",
+      "version": "17.12.0",
+      "purl": "pkg:npm/globals@17.12.0",
+      "bom-ref": "npm/globals@17.12.0"
+    },
+    {
+      "type": "library",
+      "name": "handlebars-loader",
+      "version": "1.7.3",
+      "purl": "pkg:npm/handlebars-loader@1.7.3",
+      "bom-ref": "npm/handlebars-loader@1.7.3"
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "30.1.1",
+      "purl": "pkg:npm/jsdom@30.1.1",
+      "bom-ref": "npm/jsdom@30.1.1"
+    },
+    {
+      "type": "library",
+      "name": "mini-css-extract-plugin",
+      "version": "2.10.2",
+      "purl": "pkg:npm/mini-css-extract-plugin@2.10.2",
+      "bom-ref": "npm/mini-css-extract-plugin@2.10.2"
+    },
+    {
+      "type": "library",
+      "name": "postcss",
+      "version": "8.5.28",
+      "purl": "pkg:npm/postcss@8.5.28",
+      "bom-ref": "npm/postcss@8.5.28"
+    },
+    {
+      "type": "library",
+      "name": "postcss-loader",
+      "version": "8.2.1",
+      "purl": "pkg:npm/postcss-loader@8.2.1",
+      "bom-ref": "npm/postcss-loader@8.2.1"
+    },
+    {
+      "type": "library",
+      "name": "postcss-preset-env",
+      "version": "11.5.4",
+      "purl": "pkg:npm/postcss-preset-env@11.5.4",
+      "bom-ref": "npm/postcss-preset-env@11.5.4"
+    },
+    {
+      "type": "library",
+      "name": "postcss-scss",
+      "version": "4.0.9",
+      "purl": "pkg:npm/postcss-scss@4.0.9",
+      "bom-ref": "npm/postcss-scss@4.0.9"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "3.9.9",
+      "purl": "pkg:npm/prettier@3.9.9",
+      "bom-ref": "npm/prettier@3.9.9"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "1.105.0",
+      "purl": "pkg:npm/sass@1.105.0",
+      "bom-ref": "npm/sass@1.105.0"
+    },
+    {
+      "type": "library",
+      "name": "sass-loader",
+      "version": "17.0.1",
+      "purl": "pkg:npm/sass-loader@17.0.1",
+      "bom-ref": "npm/sass-loader@17.0.1"
+    },
+    {
+      "type": "library",
+      "name": "style-loader",
+      "version": "4.0.0",
+      "purl": "pkg:npm/style-loader@4.0.0",
+      "bom-ref": "npm/style-loader@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "stylelint",
+      "version": "17.15.0",
+      "purl": "pkg:npm/stylelint@17.15.0",
+      "bom-ref": "npm/stylelint@17.15.0"
+    },
+    {
+      "type": "library",
+      "name": "stylelint-checkstyle-reporter",
+      "version": "1.1.1",
+      "purl": "pkg:npm/stylelint-checkstyle-reporter@1.1.1",
+      "bom-ref": "npm/stylelint-checkstyle-reporter@1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "stylelint-config-standard-scss",
+      "version": "17.0.0",
+      "purl": "pkg:npm/stylelint-config-standard-scss@17.0.0",
+      "bom-ref": "npm/stylelint-config-standard-scss@17.0.0"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.2.2",
+      "purl": "pkg:npm/vite@^8.2.2",
+      "bom-ref": "npm/vite@^8.2.2"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "5.0.2",
+      "purl": "pkg:npm/vitest@5.0.2",
+      "bom-ref": "npm/vitest@5.0.2"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "5.111.1",
+      "purl": "pkg:npm/webpack@5.111.1",
+      "bom-ref": "npm/webpack@5.111.1"
+    },
+    {
+      "type": "library",
+      "name": "webpack-cli",
+      "version": "7.2.3",
+      "purl": "pkg:npm/webpack-cli@7.2.3",
+      "bom-ref": "npm/webpack-cli@7.2.3"
+    },
+    {
+      "type": "library",
+      "name": "webpack-remove-empty-scripts",
+      "version": "1.1.1",
+      "purl": "pkg:npm/webpack-remove-empty-scripts@1.1.1",
+      "bom-ref": "npm/webpack-remove-empty-scripts@1.1.1"
+    }
+  ]
+}
